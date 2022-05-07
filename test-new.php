@@ -2,7 +2,7 @@
 
 echo "<html>
 
-<h1>WELCOME WORKING FINE</h1>
+<h1>WELCOME WORKING FINE Good luck</h1>
 </html>";
 
 ?>
