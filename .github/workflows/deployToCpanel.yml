@@ -12,8 +12,8 @@ jobs:
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action
-      uses: ./
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp.works.spiderworks.co.in
-        ftp-username: supalGit@works.spiderworks.co.in
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
